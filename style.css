@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    /* background-image: url(images/background.jpg);
+    background-position: center;
+    height: 100vh; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.person-container {
+    color: #ffff;
+}
+
+.person-container-img {
+    width: 120px;
+    border-radius: 50%;
+    border: 9 px solid #090909;
+    margin-bottom: 24px;
+}
+
+.person-container-name {
+    font-size: 40px;
+    margin-bottom: 8px;
+    font-family: 'Fira Code';
+}
+
+.person-container-subtitle {
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-family: 'Inter';
+}
+
+
+
+.info-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.info-box {
+    width: 300px;
+    height: 180px;
+    background-color: #ffff;
+    padding: 24px;
+    border-radius: 32px;
+}
+
+
+.info-box-title {
+    font-family: 'Fira Code';
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.contact-container-link {
+    background-color: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container-icon {
+    width: 34px;
+}
